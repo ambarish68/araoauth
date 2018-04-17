@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AraoAuth", "AraoAuth\AraoAuth.csproj", "{2D437EFB-E356-4543-9FE2-55A4388C107F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AraoAuth.Tests", "AraoAuth.Tests\AraoAuth.Tests.csproj", "{C7EB9208-E5BC-4A01-AF45-B0D54C5DD0DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D437EFB-E356-4543-9FE2-55A4388C107F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D437EFB-E356-4543-9FE2-55A4388C107F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D437EFB-E356-4543-9FE2-55A4388C107F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D437EFB-E356-4543-9FE2-55A4388C107F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7EB9208-E5BC-4A01-AF45-B0D54C5DD0DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7EB9208-E5BC-4A01-AF45-B0D54C5DD0DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7EB9208-E5BC-4A01-AF45-B0D54C5DD0DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7EB9208-E5BC-4A01-AF45-B0D54C5DD0DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
