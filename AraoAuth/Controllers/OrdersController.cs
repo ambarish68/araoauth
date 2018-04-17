@@ -1,8 +1,11 @@
-﻿using System;
+﻿using AraoAuth.Extensions;
+using Microsoft.Owin;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Web;
 using System.Web.Http;
 
 namespace AraoAuth.Controllers
@@ -14,6 +17,7 @@ namespace AraoAuth.Controllers
         [Route("")]
         public IHttpActionResult Get()
         {
+            var userId = OwinContextExtensions.GetUserId(HttpContext.Current.GetOwinContext());
             return Ok(Order.CreateOrders());
         }
 
